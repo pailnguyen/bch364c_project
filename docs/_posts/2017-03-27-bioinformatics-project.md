@@ -1,6 +1,6 @@
 ---
 layout: post
-title: `project-name` - by Steven and Paul
+title: project-name - by Steven and Paul
 ---
 
 Protein structure determination is an important gateway step in many fields of research, from drug design to understanding protein function. Currently, structure determination is done using X-ray crystallography which requires tedious experimentation to obtain protein crystals suitable for X-ray diffraction. Reliable protein structure prediction could supplement crystallography to more easily determine protein structure. Unfortunately, structure prediction is still an unsolved problem. Protein structure prediction remains an important problem in bioinformatics. The most successful structure prediction software predominantly uses homology modeling and protein threading. De novo prediction is less successful due to limited understanding of protein folding dynamics. There have been few attempts to apply machine learning to structure prediction without reliance on sequence similarity in homologous proteins or secondary structure.
