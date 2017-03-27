@@ -2,10 +2,10 @@
 layout: post
 title: Overview
 ---
-by Steven Tran* and Paul Nguyen*
+by Steven Tran and Paul Nguyen
 
 {% marginnote margin1 %}
-\*These authors contributed equally.
+These authors contributed equally.
 {% endmarginnote %}
 
 {% blockquote Nelson and Cox, Lehninger Principles of Biochemistry %}
