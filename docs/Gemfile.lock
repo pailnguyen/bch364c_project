@@ -5,6 +5,7 @@ GEM
       timers (~> 4.0.0)
     colorator (0.1)
     ffi (1.9.10)
+    ffi (1.9.10-x64-mingw32)
     hitimes (1.2.2)
     jekyll (3.1.2)
       colorator (~> 0.1)
@@ -40,6 +41,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   jekyll
@@ -47,4 +49,4 @@ DEPENDENCIES
   jekyll-paginate
 
 BUNDLED WITH
-   1.11.2
+   1.14.6
