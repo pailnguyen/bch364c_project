@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steven Tran, Paul Nguyen - Articles</title>
+    <description>a supervised learning approach to protein secondary structure prediction
+</description>
+    <link>
+    https://pailnguyen.github.io</link>
+    
+      
+      <item>
+        <title>Project Overview</title>
+        
+          <description>&lt;p&gt;by Steven Tran and Paul Nguyen&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 27 Mar 2017 00:00:00 -0500</pubDate>
+        <link>
+        https://pailnguyen.github.io/project-overview.html</link>
+        <guid isPermaLink="true">https://pailnguyen.github.io/project-overview.html</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
