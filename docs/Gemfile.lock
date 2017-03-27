@@ -47,6 +47,7 @@ DEPENDENCIES
   jekyll
   jekyll-compose
   jekyll-paginate
+  shortcodes
 
 BUNDLED WITH
    1.14.6
