@@ -3,7 +3,7 @@ description: >
   a supervised learning approach to protein secondary structure prediction
 baseurl: "/bch364c_project"
 url: "https://pailnguyen.github.io"
-paginate:	2 # The number of posts to show per page on your homepage
+paginate: 2 # The number of posts to show per page on your homepage
 name: "Steven Tran, Paul Nguyen"
 markdown: kramdown
 permalink: none
