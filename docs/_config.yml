@@ -1,6 +1,6 @@
 title: project
 description: >
-  for BCH364C - Spring 2017, The University of Texas at Austin
+  a supervised learning approach to protein secondary structure prediction
 baseurl: "/bch364c_project"
 url: "https://pailnguyen.github.io"
 paginate:	2 # The number of posts to show per page on your homepage
