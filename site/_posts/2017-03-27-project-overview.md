@@ -4,10 +4,10 @@ title: Project Overview
 ---
 
 {% marginnote margin1 %}
-†These authors contributed equally.
+<sup>†</sup>These authors contributed equally.
 {% endmarginnote %}
 
-*by Steven Tran† and Paul Nguyen†*
+*by Steven Tran<sup>†</sup> and Paul Nguyen<sup>†</sup>*
 
 {% blockquote Nelson and Cox, Lehninger Principles of Biochemistry %}
 Proteins mediate virtually every process that takes place in a cell, exhibiting an almost endless diversity of functions. To explore the molecular mechanism of a biological process, a biochemist almost inevitably studies one or more proteins.
