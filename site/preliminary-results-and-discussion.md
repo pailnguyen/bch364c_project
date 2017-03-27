@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Preliminary Results and Discussion
+title: Results and Discussion
 permalink: /results-and-discussion/
 ---
 
