@@ -4,7 +4,7 @@ title: Results and Discussion
 permalink: /results-and-discussion/
 ---
 
-After several cycles of architecture modification and testing, we ended up with a CNN with a peak accuracy of 93.0%. Below is a graph from TensorBoard of how cross-entropy changed during training.
+After several cycles of architecture modification and testing, we ended up with a CNN with a peak accuracy of 93.1%. Below is a graph from TensorBoard of how cross-entropy changed during training.
 
 ![](http://i.imgur.com/OQYEqvu.png)
 Figure 1. Cross-entropy over time during CNN training. We used `tf.nn.sparse_softmax_cross_entropy_with_logits()`, which, as stated by the documentation, “measures the probability error in discrete classification tasks in which the classes are mutually exclusive”. After ~5 hours of training, cross-entropy dropped to 0.01435. Intuitively, a decrease in cross-entropy is an indication that neurons in the network are no longer making large mistakes in producing desired outputs.
