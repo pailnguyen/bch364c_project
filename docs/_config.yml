@@ -1,6 +1,6 @@
-title: project
+title: jackal
 description: >
-  a supervised learning approach to protein secondary structure prediction
+  cell phenotype image classification using a convolutional neural network
 baseurl: "/bch364c_project"
 url: "https://pailnguyen.github.io"
 paginate: 2 # The number of posts to show per page on your homepage

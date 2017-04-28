@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project Overview
+title: Abstract
 ---
 
 *by Steven Tran and Paul Nguyen*
