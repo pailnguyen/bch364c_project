@@ -18,7 +18,7 @@ Architecture: Convolution, ReLU, Max Pool, Normalization, Convolution, ReLU, Nor
 
 The convolution layer uses a filter (some feature matrix) to detect features in the image. This layer “scrolls” through the image by a specified stride length, computing the dot product of the matrix to the input, and returns a feature map. Increasing the depth of a convolution layer increases the number of features that the layer detects. The convolution operator is a linear operator, so nonlinearity must be introduced back into the CNN to account for nonlinear data (most data). This is done by a ReLU (rectified linear unit) operation that changes all negative values to 0 while preserving positive values. This is a computationally efficient way to accelerate network training by avoiding the problem of having a near-0 gradient (which would greatly slow down any learning).
 
-![Example of ReLU function being applied to a feature map from https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/] (https://ujwlkarn.files.wordpress.com/2016/08/screen-shot-2016-08-07-at-6-18-19-pm.png?w=1496)
+![Example of ReLU function being applied to a feature map from https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/](https://ujwlkarn.files.wordpress.com/2016/08/screen-shot-2016-08-07-at-6-18-19-pm.png)
 **Figure 1.** Example of ReLU function being applied to feature map
 
 Max pooling can be done after convolution layers to reduce dimensionality of the feature map while preserving the important information. The image is divided into small “windows” and a max value is preserved for each window. Spatial pooling reduces the size of the following inputs, thereby reducing computing power need. It also prevents overfitting of the data, allowing the trained machine to generalize results to new images.
@@ -33,7 +33,7 @@ The CNN is trained by a cycle of forward and backpropagation. In forward propaga
 **Training Workflow**
 * `batch_resize.py` was written to create downscaled copies of the endogenous microscopy images.
 * `generate_image_bytes.py` was written to compact and couple image labels with image luminance data
-	* In short, labels are represented with one byte; this is followed by a flattened bytestring representation of the associated image. This script partitioned data into files (`training_batch.bin` and `test_batch.bin`).
+* In short, labels are represented with one byte; this is followed by a flattened bytestring representation of the associated image. This script partitioned data into files (`training_batch.bin` and `test_batch.bin`).
 * `generate_threshold_image_bytes.py` was written to replicate Hamilton *et al.*’s thresholding method. We found that feeding our network threshold images lowered the final accuracy of our network, likely due to reduced luminance information (as threshold image pixels are solely either black or white).
 * `jkl_train.py` was run to train our model according to the model specification programmed in `jkl.py`. `jkl_eval.py` provided accuracy as the number of correct predictions divided by the total number of test images evaluated.
 
