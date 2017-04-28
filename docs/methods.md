@@ -1,3 +1,9 @@
+---
+layout: page
+title: Methods
+permalink: /methods/
+---
+
 **Summary**
 
 Software: TensorFlow 1.1.0, Python 3.5.2, Microsoft Windows 10 Version 1607 (OS Build 14393.693)
