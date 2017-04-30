@@ -23,8 +23,8 @@ IMAGE_SIZE = 64
 
 # Global constants describing the jkl data set.
 NUM_CLASSES = 10
-NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 250
-NUM_EXAMPLES_PER_EPOCH_FOR_EVAL = 25
+NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 452
+NUM_EXAMPLES_PER_EPOCH_FOR_EVAL = 50
 
 
 def read_jkl(filename_queue):
