@@ -6,7 +6,7 @@ permalink: /methods/
 
 **Summary**
 
-Software: TensorFlow 1.1.0, Python 3.5.2, Microsoft Windows 10 Version 1607 (OS Build 14393.693)
+Software: TensorFlow 1.1.0 (`pip3 install tensorflow`), [Python 3.5.2](https://www.python.org/downloads/), Microsoft Windows 10 Version 1607 (OS Build 14393.693) (also tested on macOS Sierra)
 
 Dataset: [http://locate.imb.uq.edu.au/downloads.shtml](http://locate.imb.uq.edu.au/downloads.shtml) (Organelle Image Collection - HeLa)
 
@@ -14,7 +14,7 @@ Dataset: [http://locate.imb.uq.edu.au/downloads.shtml](http://locate.imb.uq.edu.
 
 Project and thresholding algorithm inspired by/implemented based on [“Fast automated cell phenotype image classification” by Hamilton et al.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-8-110).
 
-Architecture: Convolution, ReLU, Max Pooling, Normalization, Convolution, ReLU, Normalization, Max Pool, Fully-Connected (FC), FC, Softmax Loss
+Architecture: Convolution, ReLU, Max Pooling, Normalization, Convolution, ReLU, Normalization, Max Pooling, Fully-Connected (FC), FC, Softmax Loss
 
 The convolution layer uses a filter (a feature matrix) to detect features in the image. This layer “scrolls” through the image by a specified stride length, computing the dot product of the matrix to the input, and returns a feature map. Increasing the depth of a convolution layer increases the number of features that the layer detects. The convolution operator is a linear operator, so nonlinearity must be introduced back into the CNN to account for nonlinear data (most data). This is done by a ReLU (rectified linear unit) operation that changes all negative values to 0 while preserving positive values. This is a computationally efficient way to accelerate network training by avoiding the problem of having a near-0 gradient (which would greatly slow down any learning).
 
